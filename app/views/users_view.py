@@ -18,7 +18,7 @@ class UserView(Resource):
     Регистрация пользователья, принимает:
     dict {
     email: str (notnull),
-    passwors: str (notnull),
+    password: str (notnull),
     name: str,
     surname: str,
     role: str (user or admin)}
